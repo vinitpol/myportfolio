@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Linear Programming Problem (LPP)",
+    "desc": "A Linear Programming Problem is a mathematical method used to find the best possible outcome under constraints. It is commonly used in operations research and optimization scenarios to achieve the optimal solution with given constraints such as resources, time, and costs.",
+    "image": "newsboxandroid",
+    "category": "android",
+    "links": {
+      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "code": "https://github.com/jigar-sable/notystack-android"
+    }
+  },
+  {
+    "name": "India Covid-19 Cases Data Analysis",
+    "desc": "Analyzing confirmed, death, and cured cases across Indian states, with a focus on Maharashtra, Kerala, and Karnataka. The analysis highlights the trend in cases over time, the recovery rates, and the impact of government measures on controlling the spread of the virus.",
+    "image": "sppuprepandroid",
+    "category": "android",
+    "links": {
+      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "code": "https://github.com/jigar-sable/sppu-prep-android"
+    }
+  },
+  {
+    "name": "Web Scraping",
+    "desc": "In this project, I utilize web scraping techniques to collect data from multiple online sources. The data is then analyzed to identify patterns, trends, and insights that can be used for business intelligence, market research, and more.",
+    "image": "newsboxandroid",
+    "category": "android",
+    "links": {
+      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "code": "https://github.com/jigar-sable/newsbox-android"
+    }
+  },
+  {
+    "name": "Scraping of Live Website (TimesJob)",
+    "desc": "I Scraped a live web sides to get the details like profile,description,Job role&Keyskills of all jobs related to python in Data Frame .",
+    "image": "weatherlyandroid",
+    "category": "android",
+    "links": {
+      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "code": "https://github.com/jigar-sable/weatherly-android"
+    }
+  },
+  {
+    "name": "Flask-CRUD Application",
+    "desc": "This Flask CRUD app allows users to manage data with options to create, read, update, and delete records. It has a clean design and uses Flask for the backend with a simple database.",
+    "image": "flipkartmern",
+    "category": "mern",
+    "links": {
+      "view": "https://flipkartwebs.herokuapp.com/",
+      "code": "https://github.com/jigar-sable/flipkart-mern"
+    }
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-website-main",
+  "version": "1.0.0",
+  "description": "Portfolio website built using HTML5, CSS3, JavaScript, and jQuery.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 3000 -a 127.0.0.1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
