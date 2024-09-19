@@ -60,7 +60,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Vinit Pol";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            $("#favicon").attr("href", "assets/images/favicon.jpg");
         }
         else {
             document.title = "Come Back To Portfolio";
@@ -73,9 +73,9 @@ document.addEventListener('visibilitychange',
 var typed = new Typed(".typing-text", {
     strings: ["Python Developer", "Backend development", "Data Analyst", "Data Science", "web development"],
     loop: true,
-    typeSpeed: 50,
-    backSpeed: 25,
-    backDelay: 500,
+    typeSpeed: 100,
+    backSpeed: 50,
+    backDelay: 1000,
 });
 // <!-- typed js effect ends -->
 

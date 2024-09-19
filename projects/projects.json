@@ -38,15 +38,5 @@
       "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
       "code": "https://github.com/jigar-sable/weatherly-android"
     }
-  },
-  {
-    "name": "Flask-CRUD Application",
-    "desc": "This Flask CRUD app allows users to manage data with options to create, read, update, and delete records. It has a clean design and uses Flask for the backend with a simple database.",
-    "image": "flipkartmern",
-    "category": "mern",
-    "links": {
-      "view": "https://flipkartwebs.herokuapp.com/",
-      "code": "https://github.com/jigar-sable/flipkart-mern"
-    }
   }
 ]

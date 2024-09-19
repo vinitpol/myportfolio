@@ -21,7 +21,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Projects | Portfolio vinit Pol";
-            $("#favicon").attr("href", "/assets/images/favicon.png");
+            $("#favicon").attr("href", "/assets/images/favicon.jpg");
         }
         else {
             document.title = "Come Back To Portfolio";
@@ -135,3 +135,103 @@ document.onkeydown = function (e) {
         return false;
     }
 }
+
+// Email_js
+// (function () {
+//     emailjs.init("aA5gRhnjkC_X33100");
+// })();
+
+// Contact form
+const contactForm = document.querySelector('#contact-form');
+contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const name = contactForm.elements['name'].value;
+    const email = contactForm.elements['email'].value;
+    const phone = contactForm.elements['phone'].value;
+    const message = contactForm.elements['message'].value;
+
+    // Send email to yourself
+    emailjs.send("service_zlv2ko1", "template_6ue6t79", {
+        from_name: name,
+        from_email: email,
+        phone: phone,
+        message: message
+    }).then(
+        function (response) {
+            console.log("SUCCESS", response);
+        },
+        function (error) {
+            console.log("FAILED", error);
+        }
+    );
+
+    // Send confirmation email to user
+    emailjs.send("service_zlv2ko1", "template_6ue6t79", {
+        to_name: name,
+        to_email: email,
+        message: "Thank you for contacting us. We will get back to you soon!"
+    }).then(
+        function (response) {
+            console.log("SUCCESS", response);
+            contactForm.reset(); // Reset form
+            alert('Thank you for your message. We will get back to you soon!');
+        },
+        function (error) {
+            console.log("FAILED", error);
+            alert('Oops! There was a problem sending your message. Please try again later.');
+        }
+    );
+});
+
+// Contact form
+// const contactForm = document.querySelector('#contact-form');
+// contactForm.addEventListener('submit', (e) => {
+//     e.preventDefault();
+
+//     const name = contactForm.elements['name'].value;
+//     const email = contactForm.elements['email'].value;
+//     const phone = contactForm.elements['phone'].value;
+//     const message = contactForm.elements['message'].value;
+
+//     // Disable submit button and show loading state
+//     const submitButton = contactForm.querySelector('button[type="submit"]');
+//     const originalButtonText = submitButton.innerHTML;
+//     submitButton.disabled = true;
+//     submitButton.innerHTML = 'Sending...';
+
+//     // Send email to yourself
+//     emailjs.send("service_zlv2ko1", "template_6ue6t79", {
+//         from_name: name,
+//         from_email: email,
+//         phone: phone,
+//         message: message
+//     }).then(
+//         function (response) {
+//             console.log("SUCCESS", response);
+//             // Send confirmation email to user
+//             return emailjs.send("service_zlv2ko1", "template_6ue6t79", {
+//                 to_name: name,
+//                 to_email: email,
+//                 message: "Thank you for contacting us. We will get back to you soon!"
+//             });
+//         }
+//     ).then(
+//         function (response) {
+//             console.log("SUCCESS", response);
+//             contactForm.reset(); // Reset form
+//             alert('Thank you for your message. We will get back to you soon!');
+//         }
+//     ).catch(
+//         function (error) {
+//             console.log("FAILED", error);
+//             alert('Oops! There was a problem sending your message. Please try again later.');
+//         }
+//     ).finally(
+//         function () {
+//             // Re-enable submit button and restore original text
+//             submitButton.disabled = false;
+//             submitButton.innerHTML = originalButtonText;
+//         }
+//     );
+// });

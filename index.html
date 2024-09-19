@@ -28,6 +28,23 @@
       /* Set the color */
     }
   </style>
+  <!-- Email_Js -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "aA5gRhnjkC_X33100",
+      });
+    })();
+  </script>
+  <!-- <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js">
+    (function () {
+      emailjs.init("aA5gRhnjkC_X33100");
+    })();
+
+  </script> -->
+
 </head>
 
 <body oncontextmenu="return false">
@@ -49,7 +66,7 @@
         <li><a href="#skills">Skills</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#work">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certificates">Certificates</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -206,7 +223,8 @@
           <div class="desc">
             <p>This is my personal portfolio website built using HTML, CSS, and Django.</p>
             <div class="btns">
-              <a href="https://vinitpol-portfolio.netlify.app/" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+              <a href="https://vinitpol-portfolio.netlify.app/" class="btn" target="_blank"><i class="fas fa-eye"></i>
+                View</a>
               <a href="https://github.com/vinitpol/myportfolio" class="btn" target="_blank">Code <i
                   class="fas fa-code"></i></a>
             </div>
@@ -224,7 +242,7 @@
               recovery rates.</p>
             <div class="btns">
               <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-              <a href="https://github.com/vinitpol/Portfolio-Website" class="btn" target="_blank">Code <i
+              <a href="https://github.com/vinitpol/vinit_1" class="btn" target="_blank">Code <i
                   class="fas fa-code"></i></a>
             </div>
           </div>
@@ -241,7 +259,7 @@
               intelligence and market research.</p>
             <div class="btns">
               <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-              <a href="https://github.com/vinitpol/Projects_Python" class="btn" target="_blank">Code <i
+              <a href="https://github.com/vinitpol/vinit_1" class="btn" target="_blank">Code <i
                   class="fas fa-code"></i></a>
             </div>
           </div>
@@ -347,9 +365,8 @@
     </div>
 
   </section>
-  <!-- experience section ends -->
 
-  <!-- contact section starts -->
+
   <section class="contact" id="contact">
 
     <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
@@ -363,24 +380,24 @@
 
           <div class="form-group">
             <div class="field">
-              <input type="text" name="name" placeholder="Name" required>
+              <input type="text" name="name" id="name" placeholder="Name" required>
               <i class='fas fa-user'></i>
             </div>
             <div class="field">
-              <input type="text" name="email" placeholder="Email" required>
+              <input type="text" name="email" id="email" placeholder="Email" required>
               <i class='fas fa-envelope'></i>
             </div>
             <div class="field">
-              <input type="text" name="phone" placeholder="Phone">
+              <input type="text" name="phone" id="phone" placeholder="Phone">
               <i class='fas fa-phone-alt'></i>
             </div>
             <div class="message">
-              <textarea placeholder="Message" name="message" required></textarea>
+              <textarea placeholder="Message" id="message" name="message" required></textarea>
               <i class="fas fa-comment-dots"></i>
             </div>
           </div>
           <div class="button-area">
-            <button type="submit">
+            <button type="submit" onclick="sendMail()">
               Submit <i class="fa fa-paper-plane"></i></button>
           </div>
         </form>
@@ -469,6 +486,8 @@
   <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
   <script src="./assets/js/script.js"></script>
+
+
 
 </body>
 
