@@ -1,5 +1,5 @@
 # 👋 Hi, I'm Jigar Sable
-👨‍💻 **Full-Stack Developer based in Pune, India**
+👨‍💻 **Python Backend Developer based in Navi Mumbai, India**
 
 📫 **How to reach me:** [vinitpol2000@gmail.com](mailto:vinitpol2000@gmail.com)
 
