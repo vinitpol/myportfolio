@@ -38,5 +38,15 @@
       "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
       "code": "https://github.com/jigar-sable/weatherly-android"
     }
+  },
+  {
+    "name": "Linear Programming Problem (LPP)",
+    "desc": "A Linear Programming Problem is a mathematical method used to find the best possible outcome under constraints. It is commonly used in operations research and optimization scenarios to achieve the optimal solution with given constraints such as resources, time, and costs.",
+    "image": "lpp",
+    "category": "mern",
+    "links": {
+      "view": "https://www.linkedin.com/in/vinit-pol-b64a121a9/",
+      "code": "https://github.com/vinitpol"
+    }
   }
 ]
