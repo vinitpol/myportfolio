@@ -3,11 +3,11 @@
 
 📫 **How to reach me:** [vinitpol2000@gmail.com](mailto:vinitpol2000@gmail.com)
 
-📱 **Crafted the SPPU Prep App**, loved by 8000+ savvy learners on the Play Store
+📱 **Crafted the SPPU Prep App**, loved by 8000+ 
 
-⭐ **Star-studded projects** like Flipkart and Instagram, shining bright with 800+ stars
+⭐ **Star-studded projects** like Flask CRUD Appliacation (To-Do App) & Data Analysis with Machine Learning 
 
-🔗 **Rocking a cool 20k+ connections on LinkedIn**, let's connect!
+🔗 **Rocking a cool 1k+ connections on LinkedIn**, let's connect!
 
 🚀 **Development sparked my coding passion**—now it's a lifelong affair! Dive into my digital journey in the [portfolio](#) 💻❤️
 
