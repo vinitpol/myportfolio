@@ -6,7 +6,7 @@
     "category": "android",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/notystack-android"
+      "code": "https://github.com/"
     }
   },
   {
@@ -32,8 +32,8 @@
   {
     "name": "Scraping of Live Website (TimesJob)",
     "desc": "I Scraped a live web sides to get the details like profile,description,Job role&Keyskills of all jobs related to python in Data Frame .",
-    "image": "web_scraping_n",
-    "category": "timesjob_n",
+    "image": "timesjob_n",
+    "category": "mern",
     "links": {
       "view": "https://www.linkedin.com/in/vinit-pol-b64a121a9/",
       "code": "https://github.com/vinitpol"
