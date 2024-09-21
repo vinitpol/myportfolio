@@ -33,4 +33,4 @@
 ---
 
 ### 📊 GitHub Activity:
-- [jigar-sable](https://github.com/vinitpol)
+- [Vinit-Pol](https://github.com/vinitpol)
