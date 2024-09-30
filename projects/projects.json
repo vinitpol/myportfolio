@@ -11,7 +11,7 @@
   },
   {
     "name": "India Covid-19 Cases Data Analysis",
-    "desc": "Analyzing confirmed, death, and cured cases across Indian states, with a focus on Maharashtra, Kerala, and Karnataka. The analysis highlights the trend in cases over time, the recovery rates, and the impact of government measures on controlling the spread of the virus.",
+    "desc": "Analyzing confirmed, death, and recovery cases in Maharashtra, Kerala, and Karnataka shows trends in cases, recovery rates, and the impact of government measures on virus control.",
     "image": "covid",
     "category": "mern",
     "links": {
@@ -21,7 +21,7 @@
   },
   {
     "name": "Web Scraping",
-    "desc": "In this project, I utilize web scraping techniques to collect data from multiple online sources. The data is then analyzed to identify patterns, trends, and insights that can be used for business intelligence, market research, and more.",
+    "desc": "In this project, I use web scraping to gather data from online sources, then analyze it to uncover patterns and insights for business intelligence and market research.",
     "image": "web_scraping_n",
     "category": "mern",
     "links": {
