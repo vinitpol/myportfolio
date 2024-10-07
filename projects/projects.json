@@ -11,7 +11,7 @@
   },
   {
     "name": "India Covid-19 Cases Data Analysis",
-    "desc": "Analyzing confirmed, death, and recovery cases in Maharashtra, Kerala, and Karnataka shows trends in cases, recovery rates, and the impact of government measures on virus control.",
+    "desc": "Analyzing confirmed, death, and recovery cases in Maharashtra, Kerala, and Karnataka reveals trends and the impact of government measures on virus control.",
     "image": "covid",
     "category": "mern",
     "links": {
