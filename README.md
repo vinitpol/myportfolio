@@ -30,7 +30,7 @@
 ### 🗄️ Databases:
 - MongoDB | MySQL | SQLite
 
----
+----
 
 ### 📊 GitHub Activity:
 - [Vinit-Pol](https://github.com/vinitpol)
