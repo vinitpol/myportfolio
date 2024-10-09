@@ -1,12 +1,12 @@
 [
   {
-    "name": "Linear Programming Problem (LPP)-n",
-    "desc": "A Linear Programming Problem is a mathematical method used to find the best possible outcome under constraints. It is commonly used in operations research and optimization scenarios to achieve the optimal solution with given constraints such as resources, time, and costs.",
-    "image": "newsboxandroid",
-    "category": "android",
+    "name": "To Do List Application",
+    "desc": "The To-Do List App helps users manage tasks easily, allowing them to add, remove, filter, and mark tasks as done. Built with HTML5, CSS3, JavaScript, and Flask, it offers a user-friendly experience.",
+    "image": "to_do_icon",
+    "category": "mern",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/"
+      "view": "https://to-do-app-alpha-sepia.vercel.app/",
+      "code": "https://github.com/vinitpol/To_do_app"
     }
   },
   {
