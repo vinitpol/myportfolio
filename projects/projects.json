@@ -1,7 +1,7 @@
 [
   {
     "name": "To Do List Application",
-    "desc": "The To-Do List App helps users manage tasks easily, allowing them to add, remove, filter, and mark tasks as done. Built with HTML5, CSS3, JavaScript, and Flask, it offers a user-friendly experience.",
+    "desc": "The To-Do List App helps users manage tasks efficiently with features like adding, removing, filtering, and marking tasks as done. Built using HTML5, CSS3, JavaScript, and Flask.",
     "image": "to_do_icon",
     "category": "mern",
     "links": {
@@ -41,7 +41,7 @@
   },
   {
     "name": "Linear Programming Problem (LPP)",
-    "desc": "A Linear Programming Problem is a mathematical method used to find the best possible outcome under constraints. It is commonly used in operations research and optimization scenarios to achieve the optimal solution with given constraints such as resources, time, and costs.",
+    "desc": "Linear Programming is a method to optimize outcomes under constraints, commonly used in operations research to find the best solution within limits like resources, time, and costs.",
     "image": "lpp",
     "category": "mern",
     "links": {
