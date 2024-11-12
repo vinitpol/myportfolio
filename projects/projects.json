@@ -1,11 +1,11 @@
 [
   {
     "name": "To Do List Application",
-    "desc": "The To-Do List App helps users manage tasks efficiently with features like adding, removing, filtering, and marking tasks as done. Built using HTML5, CSS3, JavaScript, and Flask.",
+    "desc": "The To-Do App helps users manage tasks. It uses HTML5, CSS3, JS, and Flask for features like adding, removing, filtering, and marking tasks as done.",
     "image": "to_do_icon",
     "category": "mern",
     "links": {
-      "view": "https://to-do-app-alpha-sepia.vercel.app/",
+      "view": "https://to-do-app-nhc6.vercel.app/",
       "code": "https://github.com/vinitpol/To_do_app"
     }
   },
@@ -47,6 +47,16 @@
     "links": {
       "view": "https://www.linkedin.com/in/vinit-pol-b64a121a9/",
       "code": "https://github.com/vinitpol/LPP"
+    }
+  },
+  {
+    "name": "Expense Tracker App",
+    "desc": "Welcome to the Expense Tracker This web app helps users manage their finances by tracking expenses using HTML5, CSS3, JavaScript & Django.",
+    "image": "expense",
+    "category": "mern",
+    "links": {
+      "view": "https://vinitpol.pythonanywhere.com/",
+      "code": "https://github.com/vinitpol/Expense_Tracker_Django"
     }
   }
 ]
