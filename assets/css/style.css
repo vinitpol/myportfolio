@@ -425,13 +425,15 @@ header .navbar ul li a:hover {
   width: 30rem;
   height: auto;
   border-radius: 5%;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  mix-blend-mode: luminosity;
-  transition: 0.3s;
+  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6); */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  mix-blend-mode: 0.3s ease;
+  transition: 0.3s ease;
   cursor: pointer;
 }
 
 .about .row .image img:hover {
+  transform: scale(1.05);
   mix-blend-mode: normal;
 }
 
